@@ -19,7 +19,6 @@ footer {
     background-color:  #c9184a ;
     display: flex;
     justify-content: space-around;
-    height: 320px;
 }
 
 header {
@@ -489,3 +488,101 @@ a {
 .footer {
     grid-area: footer;
 }*/
+
+/* ---- DISEÑO RESPONSIVE PARA INDEX Y SOBRE MI ---- */
+
+@media screen and (max-width: 500px){
+
+/* ---- MODIFICACION PARA CELU DEL HEADER ---- */
+
+.logosredes{
+    margin-left: 0;
+}
+.logosredes img {
+    width: 20px;
+    height: 20px;
+}
+.logo{
+    margin-right: 0;
+}
+.logo img {
+    width: 200px;
+    height: auto;
+}
+.redeslogo {
+    align-content: center;
+    justify-content: space-around;
+}
+
+.nav ul {
+    flex-direction: column;
+}
+.nav{
+    font-size: 15px;
+}
+.nav li{
+    padding: 5px;
+}
+
+/* ---- MODIFICACION PARA CELU DEL FOOTER ---- */
+
+footer{
+    flex-direction: column;
+}
+
+.mapadelfooter {
+    padding: 80px;
+}
+.mapadelfooter h3 {
+    font-size: 15px;
+}
+.formulariofooter{
+    font-size: 10px;
+}
+.formulariofooter h3 {
+    font-size: 15px;
+}
+.tarifasfooter h3 {
+    font-size: 15px;
+}
+.tarifasfooter {
+    padding: 70px;
+    font-size: 10px;
+}
+
+/* ---- MODIFICACION PARA CELU DEL INDEX ---- */
+
+.imagenlemoninicio {
+    display: none;
+}
+.tortagraduacioninicio {
+    display: none;
+}
+.section2 {
+    height: 400px;
+    justify-content: space-around;
+}
+.section2 h2 {
+    font-size: 15px;
+}
+.imagenMesa img {
+    width: 400px;
+}
+
+/* ---- MODIFICACION PARA CELU DE PAGINA SOBRE MI ----*/
+
+.imagentextosobremi {
+    flex-direction: column;
+}
+.imagentextosobremi img {
+    width: 300px;
+}
+.imagentextosobremi p {
+    font-size: 12px;
+    padding-top: 50px;
+}
+.sectionsobremi h1 {
+    font-size: 20px;
+}
+
+}
