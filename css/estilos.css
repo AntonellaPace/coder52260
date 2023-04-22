@@ -15,15 +15,13 @@ body {
 }
 
 footer {
-   /* background-color: rgb(237, 180, 252);*/
-    background-color:  #c9184a ;
+    background-color: #c9184a;
     display: flex;
     justify-content: space-around;
 }
 
 header {
     background-color: #c9184a;
-    /*background-color: rgb(237, 180, 252);*/
 }
 
 a {
@@ -34,11 +32,6 @@ a {
 /* ---- HEADER ---- */
 
 .logosredes {
-    /*position: absolute;
-    text-align: right;
-    top: 50px;
-    right: 1100px;
-    position: fixed;*/
     margin-top: 50px;
     margin-left: 30px;
     z-index: 1000;
@@ -47,7 +40,6 @@ a {
 .logosredes img {
     width: 30px;
     height: 30px;
-    /* margin: 10px;*/
     margin: 10px;
 }
 
@@ -56,9 +48,6 @@ a {
     height: 125px;
     margin-top: 30px;
     margin-right: 30px;
-    /*   display: inline-block; 
-    padding-left: 1000px;
-    padding-top: 20px;*/
 }
 
 .redeslogo {
@@ -107,14 +96,9 @@ a {
 /* ---- FOOTER ---- */
 
 .formulariofooter {
-    /* display: inline-block;
-     margin-left: 200px;*/
     text-align: center;
     margin: 10px;
     font-size: 15px;
-    /* padding-top: 20px;
-     padding-bottom: 20px;*/
-
 }
 
 .formulariofooter div {
@@ -125,15 +109,10 @@ a {
 .formulariofooter h3 {
     text-align: center;
     font-size: 20px;
-    /*padding-bottom: 20px;
-     padding-top: 20px;*/
 }
 
 .mapadelfooter {
     padding-top: 30px;
-    /*display: inline-block;
-     margin-top: 20px;
-     padding-left: 20px;*/
 }
 
 .mapadelfooter h3 {
@@ -148,26 +127,11 @@ a {
     padding-top: 100px;
     text-align: center;
     line-height: 50px;
-    /*  display: inline-block;
-     padding-left: 150px;
-     position: absolute;
-     padding-top: 120px;*/
 }
-/*
 
-.tarifasfooter h3 {
-    
-    /* padding-bottom: 20px;
-     padding-right: 10px;
- }*/
- 
- .tarifasfooter a {
-     /* position: absolute;
-     padding-left: 0px;
-     border-width: 1px;
-     display: inline-block;*/
-     border-style: ridge;
-     border-color: black;
+.tarifasfooter a {
+    border-style: ridge;
+    border-color: black;
 }
 
 /* ---- PAGINA DE INICIO ---- */
@@ -181,16 +145,7 @@ a {
     font-family: 'Sacramento', cursiva;
 }
 
-/*
-.section1 div{
-    display: inline-block
-}
-*/
-
 .section1 h2 {
-    /*   width: 350px;
-    height: 350px;
-   /* padding: 50px 50px;*/
     line-height: 60px;
     font-size: 30px;
     text-align: center;
@@ -198,21 +153,14 @@ a {
 }
 
 .imagenlemoninicio img {
-    /*background-position: center center;*/
-    width: 350px ;
+    width: 350px;
     height: 350px;
-    /*display: inline-block;  
-    margin-top: 10px;*/
 }
 
 .tortagraduacioninicio img {
-    /*background-position: center center;*/
-    width: 350px ;
+    width: 350px;
     height: 350px;
-    /*display: inline-block;
-    margin-top: 10px;*/
 }
-
 
 .section2 {
     height: 500px;
@@ -224,24 +172,13 @@ a {
 }
 
 .section2 h2 {
-    /* display: inline-block;
-    text-align: center;*/
     font-size: 20px;
-    /*padding: 50px 100px;*/
 }
 
-/*
-.imagenMesa{
-    text-align: center;
-    margin-bottom: 30px;
-}*/
-
 .imagenMesa {
-    /* text-align: center;*/
     margin-left: 360px;
     width: 600px;
 }
-
 
 /* ---- PAGINA DE PEDIDOS PERSONALIAZADOS ----*/
 
@@ -278,8 +215,6 @@ a {
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
-    /*  padding-top: 20px;
-    padding-bottom: 50px;*/
     align-items: center;
 }
 
@@ -287,32 +222,11 @@ a {
     text-align: center;
     font-size: 15px;
     margin: 30px;
-    /*  padding: 20px;*/
 }
 
 .imagentextopp img {
     width: 400px;
 }
-
-/*
-.h1pedidospersonalizados {
-    text-align: center;
-    font-size: 20;
-   /* padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-.section1pedidospersonalizados img {
-    padding-left: 555px;
-    padding-bottom: 50px;
-
-}
-
-.section1pedidospersonalizados p {
-    text-align: center;
-    font-size: 15px;
-   padding-bottom: 20px;
-}*/
 
 /* ---- PAGINA DE SOBRE MI ---- */
 
@@ -327,15 +241,12 @@ a {
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
-    /*  padding-top: 20px;
-    padding-bottom: 50px;*/
 }
 
 .imagentextosobremi p {
     text-align: center;
     font-size: 15px;
     margin: 30px;
-    /*  padding: 20px;*/
 }
 
 .imagentextosobremi img {
@@ -349,8 +260,6 @@ a {
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
-    /* padding-top: 20px;
-    padding-bottom: 50px;*/
 }
 
 .productostienda {
@@ -401,22 +310,16 @@ a {
 
 /* ---- PAGINA DE RECETAS ---- */
 
-
-
 .titulorecetas {
     text-align: center;
     font-size: 50px;
     padding: 30px;
-    /* padding-top: 30px;
-    padding-bottom: 50px;*/
 }
 
 .parraforecetas {
     text-align: center;
     font-size: 20px;
     margin: 70px
-    /*  display: inline-block;
-    padding: 30px;*/
 }
 
 .videosrecetas {
@@ -430,189 +333,159 @@ a {
     height: 850px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
         " video1 video2 "
-        " video3 video4 " ;
+        " video3 video4 ";
     margin-left: 60px;
 }
 
-.videosrecetas li{
+.videosrecetas li {
     width: 50%;
     font-size: 20px;
 }
 
 .video1 {
-    grid-area: video1 ;
+    grid-area: video1;
 }
 
 .video2 {
-    grid-area: video2 ;
+    grid-area: video2;
 }
 
 .video3 {
-    grid-area: video3 ;
+    grid-area: video3;
 }
 
 .video4 {
-    grid-area: video4 ;
+    grid-area: video4;
 }
-
-/*
-.videosrecetas li {
-  display: inline-block;
-    width: 25%;
-   margin: 10px;
-}
-
-.videosrecetas li iframe {
-    width: 100%;
-    height: auto;
-}*/
-
-/*  GRID Y FLEX PARA INDEX  */
-/*
-.contenedortotalindex {
-    display: grid;
-    grid-template-rows: 0.2fr 0.2fr 1fr 1fr 0.2fr;
-    grid-template-areas:
-        " header "
-        " nav "
-        " section1 "
-        " section2 "
-        " footer ";
-}
-
-.header {
-    grid-area: header;
-}
-
-.nav {
-    grid-area: nav;
-}
-
-.section1 {
-    grid-area: section1;
-    display: grid;
-    /*align-content: center;
-    justify-content: center;
-}
-
-.section2 {
-    grid-area: section2;
-    display: grid;
-   /* align-content: center;
-    justify-content: center;
-}
-
-.footer {
-    grid-area: footer;
-}*/
 
 /* ---- DISEÑO RESPONSIVE PARA INDEX Y SOBRE MI ---- */
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-/* ---- MODIFICACION PARA CELU DEL HEADER ---- */
+    /* ---- MODIFICACION PARA CELU DEL HEADER ---- */
 
-.logosredes{
-    margin-left: 0;
-}
-.logosredes img {
-    width: 20px;
-    height: 20px;
-}
-.logo{
-    margin-right: 0;
-}
-.logo img {
-    width: 200px;
-    height: auto;
-}
-.redeslogo {
-    align-content: center;
-    justify-content: space-around;
-}
+    .logosredes {
+        margin-left: 0;
+    }
 
-.nav ul {
-    flex-direction: column;
-}
-.nav{
-    font-size: 15px;
-}
-.nav li{
-    padding: 5px;
-}
+    .logosredes img {
+        width: 20px;
+        height: 20px;
+    }
 
-.navindex ul {
-    flex-direction: column;
-}
-.navindex{
-    font-size: 15px;
-}
-.navindex li{
-    padding: 5px;
-}
+    .logo {
+        margin-right: 0;
+    }
 
-/* ---- MODIFICACION PARA CELU DEL FOOTER ---- */
+    .logo img {
+        width: 200px;
+        height: auto;
+    }
 
-footer{
-    flex-direction: column;
-}
-.mapadelfooter {
-    padding: 80px;
-}
-.mapadelfooter h3 {
-    font-size: 15px;
-}
-.formulariofooter{
-    font-size: 10px;
-}
-.formulariofooter h3 {
-    font-size: 15px;
-}
-.tarifasfooter h3 {
-    font-size: 15px;
-}
-.tarifasfooter {
-    padding: 70px;
-    font-size: 10px;
-}
+    .redeslogo {
+        align-content: center;
+        justify-content: space-around;
+    }
 
-/* ---- MODIFICACION PARA CELU DEL INDEX ---- */
+    .nav ul {
+        flex-direction: column;
+    }
 
-.imagenlemoninicio {
-    display: none;
-}
-.tortagraduacioninicio {
-    display: none;
-}
-.section2 {
-    height: 400px;
-    justify-content: space-around;
-}
-.section2 h2 {
-    font-size: 15px;
-}
-.imagenMesa {
-    margin-left: 50px;
-    width: 400px;
-}
+    .nav {
+        font-size: 15px;
+    }
 
-/* ---- MODIFICACION PARA CELU DE PAGINA SOBRE MI ----*/
+    .nav li {
+        padding: 5px;
+    }
 
-.imagentextosobremi {
-    flex-direction: column;
-}
-.imagentextosobremi img {
-    width: 300px;
-}
-.imagentextosobremi p {
-    font-size: 12px;
-    padding-top: 50px;
-}
-.sectionsobremi h1 {
-    font-size: 20px;
-}
+    .navindex ul {
+        flex-direction: column;
+    }
+
+    .navindex {
+        font-size: 15px;
+    }
+
+    .navindex li {
+        padding: 5px;
+    }
+
+    /* ---- MODIFICACION PARA CELU DEL FOOTER ---- */
+
+    footer {
+        flex-direction: column;
+    }
+
+    .mapadelfooter {
+        padding: 80px;
+    }
+
+    .mapadelfooter h3 {
+        font-size: 15px;
+    }
+
+    .formulariofooter {
+        font-size: 10px;
+    }
+
+    .formulariofooter h3 {
+        font-size: 15px;
+    }
+
+    .tarifasfooter h3 {
+        font-size: 15px;
+    }
+
+    .tarifasfooter {
+        padding: 70px;
+        font-size: 10px;
+    }
+
+    /* ---- MODIFICACION PARA CELU DEL INDEX ---- */
+
+    .imagenlemoninicio {
+        display: none;
+    }
+
+    .tortagraduacioninicio {
+        display: none;
+    }
+
+    .section2 {
+        height: 400px;
+        justify-content: space-around;
+    }
+
+    .section2 h2 {
+        font-size: 15px;
+    }
+
+    .imagenMesa {
+        margin-left: 50px;
+        width: 400px;
+    }
+
+    /* ---- MODIFICACION PARA CELU DE PAGINA SOBRE MI ----*/
+
+    .imagentextosobremi {
+        flex-direction: column;
+    }
+
+    .imagentextosobremi img {
+        width: 300px;
+    }
+
+    .imagentextosobremi p {
+        font-size: 12px;
+        padding-top: 50px;
+    }
+
+    .sectionsobremi h1 {
+        font-size: 20px;
+    }
 
 }
