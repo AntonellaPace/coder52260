@@ -1,0 +1,198 @@
+/* ---- DISEÑO RESPONSIVE PARA CELULAR---- */
+
+@media screen and (max-width: 500px) {
+
+    /* ---- MODIFICACION PARA CELU DEL HEADER ---- */
+    .buscadorlogo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+    .logo{
+        justify-content: space-around;
+        img {
+            width: 200px;
+            height: auto;
+            margin-left: 50px;}
+    }
+
+    .nav {
+        font-size: 15px;
+        ul {
+            flex-direction: column;}
+        li {
+            padding: 5px;}
+    }
+
+    .navindex {
+        font-size: 15px;
+        ul {
+            flex-direction: column;}
+        li {
+            padding: 5px;}
+    }
+
+    /* ---- MODIFICACION PARA CELU DEL FOOTER ---- */
+
+    .logosredes img {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+    }
+
+    /* ---- MODIFICACION DEL INDEX ---- */
+
+    .imagenlemoninicio {
+        display: none;
+    }
+
+    .tortagraduacioninicio {
+        display: none;
+    }
+
+    .section2 {
+        height: 400px;
+        justify-content: space-around;
+        h2 {
+            font-size: 15px;}
+    }
+
+    .imagenMesa {
+        margin-left: 50px;
+        width: 400px;
+    }
+
+    /* ---- MODIFICACION DE PAGINA NOSOTROS ----*/
+
+    .sectionnosotros1 h1{
+        font-size: 20px;
+    }
+
+    .imagentextonosotros{
+        flex-direction: column;
+    }
+    .sectionnosotros2{
+        flex-direction: column;
+        height: 400px;
+        margin: 50px;
+        h3{
+            font-size: 15px;}
+    }
+    .sectionnosotros3 {
+        padding-top: 50px;
+        h3{
+            font-size: 15px;}
+    }
+    .formulario div {
+        font-size: 15px;
+    }
+/* ---- MODIFICACION DE PAGINA PEDIDOS PERSONALIZADOS ---- */
+    .sectionpp h1{
+        font-size: 20px;
+    }
+    .imagentextopp{
+        grid-template-rows: 1fr 0.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            " imagenpp  "
+            " parrafopp "
+            " botonwpp ";
+        height: auto;
+        img {
+            width: 300px;}
+        a {
+            text-align: center;
+            font-size: 13px;}
+        p {
+            font-size: 15px;}
+    }
+
+/* ---- MODIFICACION PARA PAGINA TIENDA ---- */
+
+    .titulotienda {
+        font-size: 20px;
+    }
+    
+    .productostienda {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-area:
+            " foto1 "
+            " foto4 "
+            " foto2 "
+            " foto5 "
+            " foto3 "
+            " foto6 ";
+        img {
+            width: 200px;}
+    }
+    
+    .foto1 {
+        grid-area: foto1;
+    }
+    
+    .foto2 {
+        grid-area: foto2;
+    }
+    
+    .foto3 {
+        grid-area: foto3;
+    }
+    
+    .foto4 {
+        grid-area: foto4;
+    }
+    
+    .foto5 {
+        grid-area: foto5;
+    }
+    
+    .foto6 {
+        grid-area: foto6;
+    }
+
+/* ---- MODIFICACION PARA PAGINA RECETAS ---- */
+.titulorecetas {
+    font-size: 20px;
+}
+
+.parraforecetas {
+    font-size: 15px;
+}
+
+.videosrecetas {
+    font-size: 10px;
+    height: 1800px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        " video1 "
+        " video2 "
+        " video3 "
+        " video4 ";
+    margin-left: 0px;
+    padding: 10px;
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+.video1 {
+    grid-area: video1;
+}
+
+.video2 {
+    grid-area: video2;
+}
+
+.video3 {
+    grid-area: video3;
+}
+
+.video4 {
+    grid-area: video4;
+}
+}

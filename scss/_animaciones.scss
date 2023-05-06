@@ -1,0 +1,18 @@
+/* ---- ANIMACIONES ---- */
+
+.imagentextonosotros img{
+    transition: width 2s;
+    &:hover{
+        width: 500px;
+    }
+}
+.imagentextopp img{
+    transition: width 2s;
+    &:hover{
+        width: 450px;}
+}
+.productostienda img{
+    transition: width 1s;
+    &:hover{
+        width: 350px;}
+}

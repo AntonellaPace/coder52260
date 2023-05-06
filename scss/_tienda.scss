@@ -1,0 +1,49 @@
+/* ---- PAGINA DE TIENDA ---- */
+
+.titulotienda {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.productostienda {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area:
+        " foto1 foto2 foto3 "
+        " foto4 foto5 foto6 ";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+    li {
+        list-style-type: none;}
+    img {
+        width: 300px;}
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+.foto2 {
+    grid-area: foto2;
+}
+
+.foto3 {
+    grid-area: foto3;
+}
+
+.foto4 {
+    grid-area: foto4;
+}
+
+.foto5 {
+    grid-area: foto5;
+}
+
+.foto6 {
+    grid-area: foto6;
+}

@@ -1,0 +1,41 @@
+/* ---- PAGINA DE INICIO ---- */
+
+.section1 {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Sacramento', cursiva;
+    h2 {
+        line-height: 60px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;}
+}
+
+.imagenlemoninicio img {
+    width: 350px;
+    height: 350px;
+}
+
+.tortagraduacioninicio img {
+    width: 350px;
+    height: 350px;
+}
+
+.section2 {
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    h2 {
+        font-size: 20px;}
+}
+
+.imagenMesa {
+    margin-left: 360px;
+    width: 600px;
+}
