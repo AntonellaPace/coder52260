@@ -118,7 +118,7 @@ a {
   transition: width 1s;
 }
 .productostienda img:hover {
-  width: 350px;
+  width: 320px;
 }
 
 /* ---- PAGINA DE INICIO ---- */
@@ -153,14 +153,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  justify-items: center;
+  align-items: center;
 }
 .section2 h2 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .imagenMesa {
-  margin-left: 360px;
   width: 600px;
 }
 
@@ -195,9 +195,12 @@ a {
 
 .botonwpp {
   grid-area: botonwpp;
+  padding: 10px;
   font-size: 15px;
+  background-color: #c9184a;
   border-style: double;
   border-color: black;
+  font-weight: bold;
 }
 
 .sectionpp h1 {
@@ -254,6 +257,8 @@ a {
 .tarifas a {
   border-style: ridge;
   border-color: black;
+  padding: 10px;
+  background-color: #c9184a;
 }
 
 .sectionnosotros3 {
@@ -270,6 +275,11 @@ a {
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.botonform {
+  background-color: #c9184a;
+  padding: 5px;
 }
 
 /* ---- PAGINA DE TIENDA ---- */
@@ -289,12 +299,14 @@ a {
   justify-items: center;
   align-items: center;
   padding: 50px;
+  row-gap: 100px;
 }
 .productostienda li {
   list-style-type: none;
 }
 .productostienda img {
   width: 300px;
+  height: 250px;
 }
 
 .foto1 {
@@ -344,7 +356,7 @@ a {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: " video1 video2 " " video3 video4 ";
-  margin-left: 60px;
+  margin: 70px;
 }
 .videosrecetas li {
   width: 100%;
@@ -534,5 +546,6 @@ a {
     grid-area: video4;
   }
 }
+/* ---- DISEÑO RESPONSIVE PARA TABLET ---- */
 
 /*# sourceMappingURL=estilos.css.map */

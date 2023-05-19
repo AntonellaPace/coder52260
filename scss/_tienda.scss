@@ -18,10 +18,12 @@
     justify-items: center;
     align-items: center;
     padding: 50px;
+    row-gap: 100px;
     li {
         list-style-type: none;}
     img {
-        width: 300px;}
+        width: 300px;
+        height: 250px;}
 }
 
 .foto1 {
