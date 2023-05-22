@@ -4,6 +4,7 @@
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
+    font-weight: bold;
 }
 
 .imagentextonosotros {
@@ -26,6 +27,10 @@
     display: flex;
     justify-content: space-around;
     height: 350px;
+
+    h3 {
+        font-weight: bold;
+    }
 }
 
 .mapa {
@@ -54,11 +59,16 @@
         padding: 10px;
         background-color: #c9184a;
         box-shadow: 0 0 5px 2px;
+        font-size: 15px;
     }
 }
 
 .sectionnosotros3 {
     text-align: center;
+
+    h3 {
+        font-weight: bold;
+    }
 }
 
 .formulario {
@@ -76,6 +86,7 @@
 }
 
 .botonform {
+    font-size: 15px;
     background-color: #c9184a;
     padding: 5px;
     border-radius: 5px;
