@@ -137,16 +137,6 @@ a {
   font-weight: bold;
 }
 
-.imagenlemoninicio img {
-  width: 350px;
-  height: 350px;
-}
-
-.tortagraduacioninicio img {
-  width: 350px;
-  height: 350px;
-}
-
 .section2 {
   height: 500px;
   text-align: center;
@@ -162,6 +152,7 @@ a {
 
 .imagenMesa {
   width: 600px;
+  height: 400px;
 }
 
 /* ---- PAGINA DE PEDIDOS PERSONALIAZADOS ----*/
@@ -193,6 +184,11 @@ a {
   grid-area: parrafopp;
 }
 
+.niveleslectura {
+  font-weight: bold;
+  color: #c9184a;
+}
+
 .botonwpp {
   grid-area: botonwpp;
   padding: 10px;
@@ -201,6 +197,7 @@ a {
   border-style: double;
   border-color: black;
   font-weight: bold;
+  box-shadow: 0 0 5px 2px;
 }
 
 .sectionpp h1 {
@@ -259,6 +256,7 @@ a {
   border-color: black;
   padding: 10px;
   background-color: #c9184a;
+  box-shadow: 0 0 5px 2px;
 }
 
 .sectionnosotros3 {
@@ -280,6 +278,8 @@ a {
 .botonform {
   background-color: #c9184a;
   padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px;
 }
 
 /* ---- PAGINA DE TIENDA ---- */
@@ -290,6 +290,8 @@ a {
 }
 
 .productostienda {
+  text-align: center;
+  font-size: 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -333,6 +335,48 @@ a {
   grid-area: foto6;
 }
 
+/* ---- PRODUCTO : LEMON PIE ---- */
+.titulorogel {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.fotorogel {
+  width: 400px;
+  padding: 50px;
+}
+
+.preciorogel {
+  font-size: 25px;
+}
+
+.progel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.sectionrogel {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.precioprogel {
+  padding: 50px;
+}
+
+.botoncomprar {
+  border-style: ridge;
+  border-color: black;
+  padding: 10px;
+  background-color: #c9184a;
+  box-shadow: 0 0 5px 2px;
+}
+
 /* ---- PAGINA DE RECETAS ---- */
 .titulorecetas {
   text-align: center;
@@ -348,7 +392,6 @@ a {
 
 .videosrecetas {
   text-align: center;
-  font-size: 15px;
   list-style-type: none;
   font-weight: bold;
   height: 850px;
@@ -382,7 +425,7 @@ a {
 
 /* ---- DISEÑO RESPONSIVE PARA CELULAR---- */
 @media screen and (max-width: 500px) {
-  /* ---- MODIFICACION PARA CELU DEL HEADER ---- */
+  /* ---- MODIFICACION DEL HEADER ---- */
   .buscadorlogo {
     display: flex;
     flex-direction: column;
@@ -415,7 +458,7 @@ a {
   .navindex li {
     padding: 5px;
   }
-  /* ---- MODIFICACION PARA CELU DEL FOOTER ---- */
+  /* ---- MODIFICACION DEL FOOTER ---- */
   .logosredes img {
     width: 25px;
     height: 25px;
@@ -436,7 +479,6 @@ a {
     font-size: 15px;
   }
   .imagenMesa {
-    margin-left: 50px;
     width: 400px;
   }
   /* ---- MODIFICACION DE PAGINA NOSOTROS ----*/
@@ -446,6 +488,11 @@ a {
   .imagentextonosotros {
     flex-direction: column;
   }
+  .imagentextonosotros p {
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 40px;
+  }
   .sectionnosotros2 {
     flex-direction: column;
     height: 400px;
@@ -453,6 +500,9 @@ a {
   }
   .sectionnosotros2 h3 {
     font-size: 15px;
+  }
+  .tarifas {
+    padding-top: 50px;
   }
   .sectionnosotros3 {
     padding-top: 50px;
@@ -468,10 +518,11 @@ a {
     font-size: 20px;
   }
   .imagentextopp {
-    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.4fr;
     grid-template-columns: 1fr;
+    row-gap: 10px;
+    height: 1100px;
     grid-template-areas: " imagenpp  " " parrafopp " " botonwpp ";
-    height: auto;
   }
   .imagentextopp img {
     width: 300px;
@@ -494,6 +545,7 @@ a {
   }
   .productostienda img {
     width: 200px;
+    height: 200px;
   }
   .foto1 {
     grid-area: foto1;
@@ -513,25 +565,54 @@ a {
   .foto6 {
     grid-area: foto6;
   }
+  /* ---- MODIFICACIONES PARA PAGINA TORTA ROGEL ---- */
+  .titulorogel {
+    font-size: 20px;
+  }
+  .fotorogel {
+    width: 200px;
+    padding: 20px;
+  }
+  .preciorogel {
+    font-size: 15px;
+  }
+  .progel {
+    padding-top: 20px;
+    font-size: 13px;
+  }
+  .precioprogel {
+    padding: 20px;
+  }
+  .sectionrogel {
+    flex-direction: column;
+    text-align: center;
+  }
+  .botoncomprar {
+    padding: 5px;
+    font-size: 10px;
+  }
   /* ---- MODIFICACION PARA PAGINA RECETAS ---- */
   .titulorecetas {
     font-size: 20px;
   }
   .parraforecetas {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 15px;
   }
   .videosrecetas {
     font-size: 10px;
-    height: 1800px;
+    height: 1400px;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
     grid-template-areas: " video1 " " video2 " " video3 " " video4 ";
-    margin-left: 0px;
-    padding: 10px;
   }
   .videosrecetas iframe {
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
+  }
+  .videosrecetas li {
+    padding: 0;
   }
   .video1 {
     grid-area: video1;
@@ -547,5 +628,190 @@ a {
   }
 }
 /* ---- DISEÑO RESPONSIVE PARA TABLET ---- */
+@media screen and (max-width: 770px) {
+  /* ---- MODIFICACIONES PARA EL HEADER ---- */
+  .logo {
+    justify-content: space-around;
+  }
+  .logo img {
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+  }
+  .nav {
+    font-size: 15px;
+  }
+  .navindex {
+    font-size: 15px;
+  }
+  /* ---- MODIFICACION DEL FOOTER ---- */
+  .logosredes img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+  }
+  /* ---- MODIFICACION DEL INDEX ---- */
+  .tortagraduacioninicio {
+    display: none;
+  }
+  .section2 {
+    height: 400px;
+    justify-content: space-around;
+  }
+  .section2 h2 {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .imagenMesa {
+    width: 500px;
+  }
+  /* ---- MODIFICACION DE PAGINA PEDIDOS PERSONALIZADOS ---- */
+  .sectionpp h1 {
+    font-size: 20px;
+  }
+  .imagentextopp {
+    grid-template-rows: 0.5fr 0.5fr 0.4fr;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    height: 800px;
+    grid-template-areas: " imagenpp  " " parrafopp " " botonwpp ";
+  }
+  .imagentextopp img {
+    width: 200px;
+  }
+  .imagentextopp a {
+    text-align: center;
+    font-size: 13px;
+  }
+  .imagentextopp p {
+    font-size: 15px;
+  }
+  /* ---- MODIFICACION DE PAGINA NOSOTROS ----*/
+  .sectionnosotros1 h1 {
+    font-size: 20px;
+  }
+  .imagentextonosotros {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .imagentextonosotros p {
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 40px;
+  }
+  .sectionnosotros2 {
+    flex-direction: row;
+    height: 300px;
+    margin: 20px;
+  }
+  .sectionnosotros2 h3 {
+    font-size: 13px;
+  }
+  .tarifas {
+    font-size: 12px;
+    padding-top: 50px;
+  }
+  .sectionnosotros3 {
+    padding-top: 10px;
+  }
+  .sectionnosotros3 h3 {
+    font-size: 13px;
+  }
+  .formulario div {
+    font-size: 12px;
+  }
+  /* ---- MODIFICACION PARA PAGINA TIENDA ---- */
+  .titulotienda {
+    font-size: 20px;
+  }
+  .productostienda {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-area: " foto1 foto2" " foto3 foto4 " " foto5 foto6 ";
+  }
+  .productostienda img {
+    width: 200px;
+    height: 200px;
+  }
+  .foto1 {
+    grid-area: foto1;
+  }
+  .foto2 {
+    grid-area: foto2;
+  }
+  .foto3 {
+    grid-area: foto3;
+  }
+  .foto4 {
+    grid-area: foto4;
+  }
+  .foto5 {
+    grid-area: foto5;
+  }
+  .foto6 {
+    grid-area: foto6;
+  }
+  /* ---- MODIFICACIONES PARA PAGINA TORTA ROGEL ---- */
+  .titulorogel {
+    font-size: 20px;
+  }
+  .fotorogel {
+    width: 250px;
+    padding: 20px;
+  }
+  .preciorogel {
+    font-size: 15px;
+  }
+  .progel {
+    padding-top: 20px;
+    font-size: 13px;
+  }
+  .precioprogel {
+    padding: 20px;
+  }
+  .sectionrogel {
+    text-align: center;
+  }
+  .botoncomprar {
+    padding: 5px;
+    font-size: 11px;
+  }
+  /* ---- MODIFICACION PARA PAGINA RECETAS ---- */
+  .titulorecetas {
+    font-size: 20px;
+  }
+  .parraforecetas {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .videosrecetas {
+    height: 600px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: " video1 video2" " video3 video4";
+    justify-content: center;
+  }
+  .videosrecetas iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .videosrecetas li {
+    padding: 20px;
+    font-size: 15px;
+  }
+  .video1 {
+    grid-area: video1;
+  }
+  .video2 {
+    grid-area: video2;
+  }
+  .video3 {
+    grid-area: video3;
+  }
+  .video4 {
+    grid-area: video4;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

@@ -12,12 +12,16 @@
         " imagenpp parrafopp "
         " imagenpp botonwpp ";
     justify-items: center;
+
     p {
         text-align: center;
         font-size: 15px;
-        margin: 30px;}
+        margin: 30px;
+    }
+
     img {
-        width: 400px;}
+        width: 400px;
+    }
 }
 
 .imagenpp {
@@ -28,6 +32,11 @@
     grid-area: parrafopp;
 }
 
+.niveleslectura {
+    font-weight: bold;
+    color: #c9184a;
+}
+
 .botonwpp {
     grid-area: botonwpp;
     padding: 10px;
@@ -36,6 +45,7 @@
     border-style: double;
     border-color: black;
     font-weight: bold;
+    box-shadow: 0 0 5px 2px;
 }
 
 .sectionpp h1 {

@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #ffccd5;
-    
+
 }
 
 footer {
@@ -45,18 +45,22 @@ a {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-    padding-right: 50px;   
+    padding-right: 50px;
 }
 
-.d-flex{
+.d-flex {
     margin-top: 50px;
 }
 
-.btn{
+.btn {
     background-color: white;
     border: #ffccd5;
-    &:hover{background-color: #c9184a;}
+
+    &:hover {
+        background-color: #c9184a;
+    }
 }
+
 /* ---- NAVEGADOR ---- */
 
 .nav {
@@ -65,12 +69,16 @@ a {
     font-weight: bold;
     font-weight: black;
     text-align: center;
+
     ul {
         display: flex;
         justify-content: center;
-        list-style-type: none;}
+        list-style-type: none;
+    }
+
     li {
-        padding: 20px;}
+        padding: 20px;
+    }
 }
 
 
@@ -80,12 +88,16 @@ a {
     font-weight: bold;
     font-weight: bold black;
     text-align: center;
+
     ul {
         display: flex;
         justify-content: center;
-        list-style-type: none;}
+        list-style-type: none;
+    }
+
     li {
-        padding: 20px;}
+        padding: 20px;
+    }
 }
 
 

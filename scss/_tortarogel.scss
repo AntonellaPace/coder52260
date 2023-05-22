@@ -1,0 +1,41 @@
+/* ---- PRODUCTO : LEMON PIE ---- */
+.titulorogel {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.fotorogel {
+    width: 400px;
+    padding: 50px;
+}
+
+.preciorogel {
+    font-size: 25px;
+}
+
+.progel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.sectionrogel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.precioprogel {
+    padding: 50px;
+}
+
+.botoncomprar {
+    border-style: ridge;
+    border-color: black;
+    padding: 10px;
+    background-color: #c9184a;
+    box-shadow: 0 0 5px 2px;
+}

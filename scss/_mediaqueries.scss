@@ -2,39 +2,49 @@
 
 @media screen and (max-width: 500px) {
 
-    /* ---- MODIFICACION PARA CELU DEL HEADER ---- */
-    .buscadorlogo{
-    display: flex;
-    flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
+    /* ---- MODIFICACION DEL HEADER ---- */
+    .buscadorlogo {
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
-    .logo{
+    .logo {
         justify-content: space-around;
+
         img {
             width: 200px;
             height: auto;
-            margin-left: 50px;}
+            margin-left: 50px;
+        }
     }
 
     .nav {
         font-size: 15px;
+
         ul {
-            flex-direction: column;}
+            flex-direction: column;
+        }
+
         li {
-            padding: 5px;}
+            padding: 5px;
+        }
     }
 
     .navindex {
         font-size: 15px;
+
         ul {
-            flex-direction: column;}
+            flex-direction: column;
+        }
+
         li {
-            padding: 5px;}
+            padding: 5px;
+        }
     }
 
-    /* ---- MODIFICACION PARA CELU DEL FOOTER ---- */
+    /* ---- MODIFICACION DEL FOOTER ---- */
 
     .logosredes img {
         width: 25px;
@@ -55,66 +65,93 @@
     .section2 {
         height: 400px;
         justify-content: space-around;
+
         h2 {
-            font-size: 15px;}
+            font-size: 15px;
+        }
     }
 
     .imagenMesa {
-        margin-left: 50px;
         width: 400px;
     }
 
     /* ---- MODIFICACION DE PAGINA NOSOTROS ----*/
 
-    .sectionnosotros1 h1{
+    .sectionnosotros1 h1 {
         font-size: 20px;
     }
 
-    .imagentextonosotros{
+    .imagentextonosotros {
         flex-direction: column;
+
+        p {
+            font-size: 13px;
+            margin: 10px;
+            margin-top: 40px;
+        }
     }
-    .sectionnosotros2{
+
+    .sectionnosotros2 {
         flex-direction: column;
         height: 400px;
         margin: 50px;
-        h3{
-            font-size: 15px;}
+
+        h3 {
+            font-size: 15px;
+        }
     }
+
+    .tarifas {
+        padding-top: 50px;
+    }
+
     .sectionnosotros3 {
         padding-top: 50px;
-        h3{
-            font-size: 15px;}
+
+        h3 {
+            font-size: 15px;
+        }
     }
+
     .formulario div {
         font-size: 15px;
     }
-/* ---- MODIFICACION DE PAGINA PEDIDOS PERSONALIZADOS ---- */
-    .sectionpp h1{
+
+    /* ---- MODIFICACION DE PAGINA PEDIDOS PERSONALIZADOS ---- */
+    .sectionpp h1 {
         font-size: 20px;
     }
-    .imagentextopp{
-        grid-template-rows: 1fr 0.5fr 0.5fr;
+
+    .imagentextopp {
+        grid-template-rows: 0.5fr 0.5fr 0.4fr;
         grid-template-columns: 1fr;
+        row-gap: 10px;
+        height: 1100px;
         grid-template-areas:
             " imagenpp  "
             " parrafopp "
             " botonwpp ";
-        height: auto;
+
         img {
-            width: 300px;}
+            width: 300px;
+        }
+
         a {
             text-align: center;
-            font-size: 13px;}
+            font-size: 13px;
+        }
+
         p {
-            font-size: 15px;}
+            font-size: 15px;
+        }
     }
 
-/* ---- MODIFICACION PARA PAGINA TIENDA ---- */
+    /* ---- MODIFICACION PARA PAGINA TIENDA ---- */
 
     .titulotienda {
         font-size: 20px;
     }
-    
+
     .productostienda {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
@@ -125,77 +162,368 @@
             " foto5 "
             " foto3 "
             " foto6 ";
+
         img {
-            width: 200px;}
+            width: 200px;
+            height: 200px;
+        }
     }
-    
+
     .foto1 {
         grid-area: foto1;
     }
-    
+
     .foto2 {
         grid-area: foto2;
     }
-    
+
     .foto3 {
         grid-area: foto3;
     }
-    
+
     .foto4 {
         grid-area: foto4;
     }
-    
+
     .foto5 {
         grid-area: foto5;
     }
-    
+
     .foto6 {
         grid-area: foto6;
     }
 
-/* ---- MODIFICACION PARA PAGINA RECETAS ---- */
-.titulorecetas {
-    font-size: 20px;
-}
+    /* ---- MODIFICACIONES PARA PAGINA TORTA ROGEL ---- */
 
-.parraforecetas {
-    font-size: 15px;
-}
-
-.videosrecetas {
-    font-size: 10px;
-    height: 1800px;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        " video1 "
-        " video2 "
-        " video3 "
-        " video4 ";
-    margin-left: 0px;
-    padding: 10px;
-    iframe{
-        width: 400px;
-        height: 300px;
+    .titulorogel {
+        font-size: 20px;
     }
-}
 
-.video1 {
-    grid-area: video1;
-}
+    .fotorogel {
+        width: 200px;
+        padding: 20px;
+    }
 
-.video2 {
-    grid-area: video2;
-}
+    .preciorogel {
+        font-size: 15px;
+    }
 
-.video3 {
-    grid-area: video3;
-}
+    .progel {
+        padding-top: 20px;
+        font-size: 13px;
+    }
 
-.video4 {
-    grid-area: video4;
-}
+    .precioprogel {
+        padding: 20px;
+    }
+
+    .sectionrogel {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .botoncomprar {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+
+    /* ---- MODIFICACION PARA PAGINA RECETAS ---- */
+    .titulorecetas {
+        font-size: 20px;
+    }
+
+    .parraforecetas {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .videosrecetas {
+        font-size: 10px;
+        height: 1400px;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            " video1 "
+            " video2 "
+            " video3 "
+            " video4 ";
+
+        iframe {
+            width: 350px;
+            height: 250px;
+        }
+
+        li {
+            padding: 0;
+        }
+    }
+
+    .video1 {
+        grid-area: video1;
+    }
+
+    .video2 {
+        grid-area: video2;
+    }
+
+    .video3 {
+        grid-area: video3;
+    }
+
+    .video4 {
+        grid-area: video4;
+    }
 }
 
 /* ---- DISEÑO RESPONSIVE PARA TABLET ---- */
 
+@media screen and (max-width: 770px) {
+
+    /* ---- MODIFICACIONES PARA EL HEADER ---- */
+
+    .logo {
+        justify-content: space-around;
+
+        img {
+            width: 200px;
+            height: auto;
+            margin-left: 50px;
+        }
+    }
+
+    .nav {
+        font-size: 15px;
+    }
+
+    .navindex {
+        font-size: 15px;
+    }
+
+    /* ---- MODIFICACION DEL FOOTER ---- */
+
+    .logosredes img {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+    }
+
+    /* ---- MODIFICACION DEL INDEX ---- */
+
+    .tortagraduacioninicio {
+        display: none;
+    }
+
+    .section2 {
+        height: 400px;
+        justify-content: space-around;
+
+        h2 {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .imagenMesa {
+        width: 500px;
+    }
+
+    /* ---- MODIFICACION DE PAGINA PEDIDOS PERSONALIZADOS ---- */
+    .sectionpp h1 {
+        font-size: 20px;
+    }
+
+    .imagentextopp {
+        grid-template-rows: 0.5fr 0.5fr 0.4fr;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        height: 800px;
+        grid-template-areas:
+            " imagenpp  "
+            " parrafopp "
+            " botonwpp ";
+
+        img {
+            width: 200px;
+        }
+
+        a {
+            text-align: center;
+            font-size: 13px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    /* ---- MODIFICACION DE PAGINA NOSOTROS ----*/
+
+    .sectionnosotros1 h1 {
+        font-size: 20px;
+    }
+
+    .imagentextonosotros {
+        flex-direction: column;
+        padding-bottom: 20px;
+
+        p {
+            font-size: 13px;
+            margin: 10px;
+            margin-top: 40px;
+        }
+    }
+
+    .sectionnosotros2 {
+        flex-direction: row;
+        height: 300px;
+        margin: 20px;
+
+        h3 {
+            font-size: 13px;
+        }
+    }
+
+    .tarifas {
+        font-size: 12px;
+        padding-top: 50px;
+    }
+
+    .sectionnosotros3 {
+        padding-top: 10px;
+
+        h3 {
+            font-size: 13px;
+        }
+    }
+
+    .formulario div {
+        font-size: 12px;
+    }
+
+    /* ---- MODIFICACION PARA PAGINA TIENDA ---- */
+
+    .titulotienda {
+        font-size: 20px;
+    }
+
+    .productostienda {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-area:
+            " foto1 foto2"
+            " foto3 foto4 "
+            " foto5 foto6 ";
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .foto1 {
+        grid-area: foto1;
+    }
+
+    .foto2 {
+        grid-area: foto2;
+    }
+
+    .foto3 {
+        grid-area: foto3;
+    }
+
+    .foto4 {
+        grid-area: foto4;
+    }
+
+    .foto5 {
+        grid-area: foto5;
+    }
+
+    .foto6 {
+        grid-area: foto6;
+    }
+
+    /* ---- MODIFICACIONES PARA PAGINA TORTA ROGEL ---- */
+
+    .titulorogel {
+        font-size: 20px;
+    }
+
+    .fotorogel {
+        width: 250px;
+        padding: 20px;
+    }
+
+    .preciorogel {
+        font-size: 15px;
+    }
+
+    .progel {
+        padding-top: 20px;
+        font-size: 13px;
+    }
+
+    .precioprogel {
+        padding: 20px;
+    }
+
+    .sectionrogel {
+        text-align: center;
+    }
+
+    .botoncomprar {
+        padding: 5px;
+        font-size: 11px;
+    }
+
+    /* ---- MODIFICACION PARA PAGINA RECETAS ---- */
+    .titulorecetas {
+        font-size: 20px;
+    }
+
+    .parraforecetas {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .videosrecetas {
+        height: 600px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            " video1 video2"
+            " video3 video4";
+        justify-content: center;
+
+        iframe {
+            width: 300px;
+            height: 200px;
+        }
+
+        li {
+            padding: 20px;
+            font-size: 15px;
+        }
+    }
+
+    .video1 {
+        grid-area: video1;
+    }
+
+    .video2 {
+        grid-area: video2;
+    }
+
+    .video3 {
+        grid-area: video3;
+    }
+
+    .video4 {
+        grid-area: video4;
+    }
+
+}
